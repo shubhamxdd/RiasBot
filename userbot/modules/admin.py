@@ -44,10 +44,6 @@ from telethon.tl.types import (
     PeerChat,
     PeerChannel,
 )
-from telethon.tl.functions.contacts import (
-    BlockRequest
-    UnblockRequest,
-)
 
 from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
 from userbot.events import register
