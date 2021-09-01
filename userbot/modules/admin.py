@@ -401,7 +401,7 @@ async def unmoot(unmot):
         )
 
 
-@command(outgoing=True, pattern="^.gban(?: |$)(.*)")
+@command(outgoing=True, pattern="^\.gban(?: |$)(.*)")
 async def gspider(userbot): 
    lol = userbot ; sender = await lol.get_sender() ; me = await lol.client.get_me()
    if not sender.id == me.id:
@@ -452,7 +452,7 @@ async def gspider(userbot):
    return await friday.edit(f"**Gbanned [{user.first_name}](tg://user?id={user.id}) Affected Chats : {a} **")
 
 
-@command(outgoing=True, pattern="^.ungban(?: |$)(.*)")
+@command(outgoing=True, pattern="^\.ungban(?: |$)(.*)")
 async def gspider(userbot):
    lol = userbot ; sender = await lol.get_sender() ; me = await lol.client.get_me()
    if not sender.id == me.id:
